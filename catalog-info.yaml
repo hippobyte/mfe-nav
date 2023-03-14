@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: nav
+  description: Navigation MFE
+  tags:
+    - mfe
+    - react
+spec:
+  type: mfe
+  lifecycle: production
+  owner: cbplatform
